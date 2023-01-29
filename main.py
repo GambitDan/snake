@@ -15,10 +15,10 @@ food = Food()
 scoreboard = Scoreboard()
 
 screen.listen()
-screen.onkey(snake.up, "l")
-screen.onkey(snake.down, "n")
-screen.onkey(snake.left, "h")
-screen.onkey(snake.right, "e")
+screen.onkey(snake.up, "w")
+screen.onkey(snake.down, "s")
+screen.onkey(snake.left, "a")
+screen.onkey(snake.right, "d")
 
 game_is_on = True
 while game_is_on:
